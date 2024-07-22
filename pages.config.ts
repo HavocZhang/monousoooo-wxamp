@@ -5,7 +5,8 @@ export default defineUniPages({
   // 你也可以定义 pages 字段，它具有最高的优先级。
   pages: [],
   globalStyle: {
+    navigationBarBackgroundColor: '#fff',
     navigationBarTextStyle: 'black',
-    navigationBarTitleText: '@uni-helper',
+    navigationBarTitleText: 'monousoooo',
   },
 })
