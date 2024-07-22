@@ -21,3 +21,4 @@ dist
 *.sw?
 
 types/components.d.ts
+types/uni-pages.d.ts

@@ -9,7 +9,9 @@ import UniPages from '@uni-helper/vite-plugin-uni-pages'
 export default defineConfig({
   plugins: [
     // make sure put it before `Uni()`
-    UniPages(),
+    UniPages({
+      dts: 'types/uni-pages.d.ts',
+    }),
     Components({
       resolvers: [WotResolver()],
       dts: 'types/components.d.ts',
