@@ -13,6 +13,10 @@ export default monousoooo({
     'tsconfig.*.json',
     'tsconfig.json',
     'src/env.d.ts',
+    'src/components/qiun-data-charts',
+    'src/components/qiun-error',
+    'src/components/qiun-loading',
+    'src/components/u-charts',
   ],
 }, {
   rules: {
